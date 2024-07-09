@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/personalizado.css">
+        <title>Calazans</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="topo">
+            <div style="background-color: rgb(17, 17, 17);" class="container"> <!--coloque Style dentro do navbar/cabeçalho-->
+                <a class="navbar-brand" href="#">Calazans</a>  <!-- cabeçalho-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"id="navbarsExample07"> <!-- linha azul cabeçalho, manter a esquerda collapse-->
+                    <ul class="navbar-nav mr-auto"> <!-- estilo de cabrçalho alinhado , Inicio Serviços... contato-->
+                        <li class="nav-item">
+                            <a class ="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#descricao">Descrição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron text-center descr-top">
+            <h2><a name="inicio" class="link"></a></h2>
+            <div class="container">
+                <h1 class="display-4 mb-4">Temos a solução para seu veiculo!</h1><!-- principal cabeçalho-->
+                <!--<p class="lead mb-4">A11111111111111111111111111111111111111</p> cabecalho-->
+                <p>
+                    <a href="#contato" class="btn btn-primary btn-lg">MAIS DETALHES</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="jumbotron servicos">
+            <h2><a name="servicos" class="link"></a></h2>
+            <div class="container text-center">
+                <h2 class="display-4">SERVIÇOS</h2>
+                <p class="lead pb-4"> Melhores serviços para seu veiculo!</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Lanternagem</h2>
+                        <p> Feito por um profissinal experiente com mais de 30 anos de mercado, serviço a preço de coca cola.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Pintura</h2>
+                        <p> Uma rama de conhecimento em carros nacionais e importado.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Polimento</h2>
+                        <p> O polimento fica a desejar, so fica bom quando o dono do carro ta em cima.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="chamada">
+            <h2><a name="descricao" class="link"></a></h2>
+            <div class="container text-center">
+                <h4 class="lead mb-4">Vem que ta tendo a melhor da ilha.</h4>
+                <h2 class="display-4 mb-4"> Aqui quem manda é o cliente.</h2>
+                <p class="lead mb-4"> veja nosso trabalho nas imagens.</p>
+                <a href="#contato" class="btn btn-outline-primary btn-lg">MAIS DETALHES</a>
+            </div>
+        </div>
+
+        <div class="Acontato">                                       <!-- MEIO DO SITE-->
+            <h2><a name="contato" class="link"></a></h2>
+            <div class="container">
+                <h2 class="display-4 mb-4 text-center">Contato</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="mt-4 mb-4">Você tem alguma pergunta?</h2>
+                        <p>Endereço: Rua Almirante Figueiredo</p>
+                        <p>Ligue para nós: (XX) XXXXX-XXXX</p>
+                        <p>Escreva</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Seu melhor e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto da mensagem" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="conteudo">Conteúdo</label>
+                                <textarea name="conteudo" class="form-control" id="conteudo" placeholder="Conteúdo da mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+                                               <!-- RODAPE-->
+        <div style="background-color: rgb(17, 17, 17);" class="jumbotron rodape"> <!-- rodape totalmente preto-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Calazans</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#inicio" class="link-rodape">Home</a>
+                            </li>
+                            <li>
+                                <a href="#servicos" class="link-rodape">Serviço</a>
+                            </li>
+                            <li>
+                                <a href="#descricao" class="link-rodape">Descrição</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Contato</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="tel: XXXXXXXXXXX" class="link-rodape">(XX) XXXXX-XXXX</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">Rua Almirante figueirado n25</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">CNPJ: XX.XXX.XXX/XXXX-00</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Redes Sociais</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" target="_blank" class="link-rodape">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#/" target="_blank" class="link-rodape">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="link-rodape">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="https:"aqui entre o site/a> target="_blank" class="link-rodape">Twiter</a> <!-- colocar site aqui-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+                 <!--alteraçoes e cont--> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
